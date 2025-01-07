@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialSphere - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Infinite-X</h1>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for users...">
+            <button onclick="searchUsers()">Search</button>
+        </div>
+
+        <a href="profile.html">Profile</a>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div class="container">
+        <!-- Post Creation Section -->
+        <div class="create-post">
+            <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="fileUpload">
+            <button onclick="createPost()">Post</button>
+        </div>
+
+        <!-- Feed Section -->
+        <div id="feed">
+            <h3>Community Feed</h3>
+            <!-- Posts from other users will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Infinite-X. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

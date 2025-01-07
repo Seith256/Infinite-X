@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #4267B2;
+    color: white;
+    padding: 15px;
+    display: block;
+    justify-content: space-between;
+}
+
+.navbar a, .navbar button {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-container, .container {
+    width: 40%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.auth-container input, .create-post textarea, .create-post input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.post img, .post video {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-results {
+    width: 40%;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+.user-posts {
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.user-posts h3 {
+    color: #4267B2;
+}
+
+.post {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.post img, .post video {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.profile-container{
+    margin-left: 10px;
+}
+#feed {
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#feed h3 {
+    color: #4267B2;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #4267B2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
